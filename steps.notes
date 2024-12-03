@@ -1,0 +1,27 @@
+// this app.js will have a frontend code
+
+//Step 1 Check if browser supports geolocation
+
+//step 2 Set options for high accuracy, a 5 second timeout, and no caching
+
+//step 3 Use watchPosition to track the users location everytime
+
+//step 4 Emit the latitude and longitude via a socket with "send-location"
+//log any errors to the console
+
+//step 5 Initialise a map centered at coordinates (0, 0) with a zero a zoom
+// level of your choice I am considering 15
+
+//step 6 Create an empty object marker
+
+//step 7 When receiving location data via the socket, extract id, latitude, 
+//longitude and center the map on the new coordinates
+
+//step 8 If a marker for id exists, uodate its position otherwise create a 
+//new marker
+
+//step 9 When user disconnects, remove their marker from the map and delete 
+//it from markers.
+
+// -------This is the whole stuff I have to code------
+//Chalo lets do it🚀
